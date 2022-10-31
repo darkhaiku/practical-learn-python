@@ -6,9 +6,9 @@ class Car:
     runs = True
     number_of_wheels = 4
 
-    @classmethod
-    def get_number_of_wheels(cls):
-        return cls.number_of_wheels
+    
+    def get_number_of_wheels(self):
+        return self.number_of_wheels
 
         
 
