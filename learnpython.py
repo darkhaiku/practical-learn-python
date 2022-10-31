@@ -1,30 +1,22 @@
 import sys
 sys.stdout = open('practical-learn-python', 'w')
 
-
 class Car:
     runs = True
-    number_of_wheels = 4
 
-    
-    def get_number_of_wheels(self):
-        return self.number_of_wheels
-
-        
+    def __init__(self, make, model) -> None:
+        self.make = make 
+        self.model = model 
 
     def start(self):
         if self.runs:
-            print('Car is started.Vroom!Vroom!')
+            print(f"your {self.make} {self.model} is started. Vroom Vroom!")
+
         else:
-            print("Car is broken!")
+            print(f"your {self.make} {self.model} is broken!")
 
-my_car = Car()
-print(my_car.number_of_wheels)
-print(my_car.get_number_of_wheels())
-
-my_car.number_of_wheels = 6
-print(my_car.number_of_wheels)
-print(my_car.get_number_of_wheels())
+my_car = Car('Ford', 'Thunderbird')
+my_car.start()
 
 sys.stdout.close()
 
