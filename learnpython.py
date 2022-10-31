@@ -2,7 +2,7 @@ import sys
 sys.stdout = open('practical-learn-python', 'w')
 
 class Car:
-    runs = True
+    runs = False
 
     def __init__(self, make, model) -> None:
         self.make = make 
