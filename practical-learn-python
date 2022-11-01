@@ -1,2 +1,2 @@
-Oops, couldn't convert that value into an int!
+something went wrong. Message: invalid literal for int() with base 10: 'a'
 Reached end of the program.

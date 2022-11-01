@@ -3,8 +3,8 @@ sys.stdout = open('practical-learn-python', 'w')
 
 try:
     int('a')
-except ValueError:
-    print("Oops, couldn't convert that value into an int!")
+except ValueError as error:
+    print(f"something went wrong. Message: {error}")
 
 print('Reached end of the program.')
 
