@@ -1,2 +1,10 @@
-Car: Ford, Thunderbird
-Car: Ford, Thunderbird
+my_car type: 
+<class 'inheritance_Vehicle.Car'>
+gas
+--- --- ---
+my car is a Car: 
+True
+my_car is a Vehicle: 
+True
+Car is subclass of Vehicle: 
+True
