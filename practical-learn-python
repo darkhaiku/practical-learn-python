@@ -1,8 +1,2 @@
-my_truck type: 
-<class 'inheritance_vehicle_2.Truck'>
---- --- ---
-my_truck uses: 
-diesel
---- --- ---
-my_truck wheels
-6
+Oops, couldn't convert that value into an int!
+Reached end of the program.
